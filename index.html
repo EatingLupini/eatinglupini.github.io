@@ -9,6 +9,7 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
@@ -20,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Davide Modenese</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="It's me" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile_resize.png" alt="It's me" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -66,7 +67,7 @@
                             <ul>
                                 <li>Development of the game client Superflath Math in Lua and C++, publication on Microsoft Store and Mac;</li>
                                 <li>Development of the game client Superflath Math 2 in Unity;</li>
-                                <li>API development and website updates;</li>
+                                <li>API development in Django and website updates (based on CodeIgniter 4);</li>
                                 <li>Design and implementation of databases in PostgreSQL.</li>
                             </ul>
                         </div>
@@ -123,10 +124,10 @@
                         <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/python.png" alt="Python" /></li>
                         <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/java.png" alt="Java" /></li>
                         <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/c_sharp.png" alt="C#" /></li>
-                        <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/lua.png" alt="Lua" /></li>
-                        <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/php.png" alt="PHP" /></li>
                         <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/cpp.png" alt="C++" /></li>
+                        <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/lua.png" alt="Lua" /></li>
                         <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/rust.png" alt="Rust" /></li>
+                        <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/php.png" alt="PHP" /></li>
                     </ul>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><img class="img-small img-profile mx-auto mb-2" src="assets/img/intellij_idea.png" alt="IntelliJ IDEA" /></li>
@@ -150,6 +151,18 @@
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Camouflaged People Detection from UAVs <a href="assets/docs/tesi_modenese.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a></h3>
+                            <div class="subheading mb-3">Python + Tensorflow</div>
+                            <img id="myImg" class="img-project img-profile mx-auto mb-2" src="assets/img/cpduav_img1.png" alt="Prediction on CPD1K dataset" />
+                            <img id="myImg" class="img-project img-profile mx-auto mb-2" src="assets/img/cpduav_img2.png" alt="Prediction on CAMO dataset" />
+                            <p class="mb-0">This project seeks to contribute to the field of surveillance by providing an advanced computer
+                                vision model capable of detecting camouflaged individuals in real time. The proposed solution
+                                employs deep learning models, specifically CNNs such as U-Net and MobileNet, which can
+                                ensure accurate detection while maintaining low prediction times.</p>
+                        </div>
+                    </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Vertex Animation Texture <a href="https://github.com/EatingLupini/vatGM" target="_blank"><i class="fab fa-github"></i></a></h3>
